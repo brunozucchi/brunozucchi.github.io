@@ -1,0 +1,128 @@
+div{
+    float: left;
+    height: 600px;
+    width: 580px;
+    margin: 5px;
+}
+body{
+    background-color: #d1e1fa;
+}
+#logo{
+    padding-left: 5%;
+    padding-top: 20px;
+}
+#texto{
+
+    font-size: 18px;
+    font-family: monospace;
+
+    width: 400px;
+    height: 300px;
+
+    position: initial;
+    left: 15px;
+    border-style: hidden;
+    border-radius: 5px; 
+    padding: 8px;
+    margin: 20px 20px 20px 80px; 
+}
+#respuesta{
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 15px;
+    text-align: start;
+
+    
+    width: 400px;
+    height: 500px;
+
+    position: absolute;
+    
+    border: 3px solid#0A3871;
+    border-radius: 5px;
+    padding:8px;
+    margin: 20px;
+    background-color: aliceblue;
+}
+#sintexto{
+  position: absolute;
+  padding: 140px 0px 0px 50px;
+  
+  
+  
+
+}
+#encriptar{
+    font-size: 16px;
+    font-family: monospace;
+    font-weight:bold;
+    color: white;
+    
+    width: 250px;
+    height: 30px;   
+
+    display: inline-block;
+    border:5px;
+    border-radius: 24px;
+    margin: 15px 15px 15px 20px;
+    background: #0A3871;
+ 
+}
+#encriptar:hover {
+    background-color: #3077e1;
+    color: white;
+    transition-duration: 0.4s;
+}
+#desencriptar{
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 600;
+    color: #0A3871;
+
+    width: 250px;
+    height: 30px;   
+
+    display: inline-block;
+    border:5px;
+    border-radius: 24px;
+    margin: 15px;
+    background: white;
+}
+#desencriptar:hover{
+    background-color: #909eb2;
+    color: #0A3871;
+    transition-duration: 0.4s;
+}
+#copiar{
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 500;
+    color: white;
+
+
+    width: 250px;
+    height: 30px;   
+
+    position: relative;
+    top: 80%;
+    left: 15%;
+    border:5px;
+    border-radius: 24px;
+    margin: 20px;
+    background: #92b8e7;   
+}
+#copiar:hover{
+    background-color: #5675a0;
+    color: #1f11c1;
+    transition-duration: 0.4s;
+}
+#aclaracion{
+    font-family:monospace;
+    font-size: 15px;
+    font-weight: 500;
+    color: #646464;
+
+    display: block;
+    padding-left: 20%;
+    
+}
